@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chasing Swells — Spencer's Surf Page</title>
+  <!-- Custom, from-scratch stylesheet (NO Bootstrap on this page) -->
+  <link rel="stylesheet" href="css/scratch.css">
+</head>
+<body id="top">
+
+  <!-- ═══════════════════════════════════════════════════════
+       DIV #1: TOP NAVIGATION BAR
+       Navigation back to the professional (Bootstrap) pages
+       ═══════════════════════════════════════════════════════ -->
+  <div class="top-nav">
+    <a href="./index.html" class="nav-brand">← SB · Home Base</a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">My Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       DIV #2: HERO
+       ═══════════════════════════════════════════════════════ -->
+  <div class="hero">
+    <p class="hero-eyebrow">Salt · Sand · Swell</p>
+    <h1 class="hero-title">Chasing Swells</h1>
+    <p class="hero-subtitle">
+      The five best surf spots on the planet — where the ocean breaks in ways
+      that leave you breathless. This is my list.
+    </p>
+  </div>
+
+  <!-- On-page anchor navigation: jumps to sections further down -->
+  <nav class="section-nav">
+    <a href="#intro">Start Here</a>
+    <a href="#video">Featured Video</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#jbay">Jeffreys Bay</a>
+    <a href="#uluwatu">Uluwatu</a>
+    <a href="#teahupoo">Teahupoʻo</a>
+    <a href="#goldcoast">Gold Coast</a>
+    <a href="#tableau">Surf Data</a>
+    <a href="#game">Snake Game</a>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       DIV #3: MAIN CONTAINER
+       ═══════════════════════════════════════════════════════ -->
+  <div class="container">
+
+    <!-- INTRO — nested ordered + unordered list -->
+    <section id="intro" class="intro-lists">
+      <h2>What Makes a Spot Legendary?</h2>
+      <p style="color: #3a4a5a; margin-bottom: 20px;">
+        Not every beach is created equal. The spots on this page have earned their
+        reputation through a combination of wave quality, cultural history, and the
+        sheer number of pros they've minted. Here's what separates the world's top
+        breaks from the rest:
+      </p>
+
+      <!-- REQUIREMENT: Unordered list embedded in an ordered list -->
+      <ol>
+        <li>Wave Mechanics
+          <ul>
+            <li>Consistent swell direction and period</li>
+            <li>A reef, point, or sandbar that shapes perfect barrels</li>
+            <li>Offshore winds that hold the face clean</li>
+          </ul>
+        </li>
+        <li>Cultural Weight
+          <ul>
+            <li>A history of competitions, champions, and storied moments</li>
+            <li>A local surf community that keeps the lineup alive</li>
+            <li>Recognition on the World Surf League tour</li>
+          </ul>
+        </li>
+        <li>Accessibility &amp; Scale
+          <ul>
+            <li>Easy to find, but hard to master</li>
+            <li>Attracts surfers of all levels year-round</li>
+            <li>Infrastructure that supports travel and tourism</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- FEATURED YOUTUBE VIDEO -->
+    <section id="video" class="section">
+      <h2 class="section-title">Featured Video</h2>
+      <p class="section-lead">
+        Pipeline firing in 4K — a taste of why the North Shore holds its crown as the
+        most legendary break on the planet.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/3JLlbub1akY"
+          title="Pipeline Surfing — North Shore, Oahu"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- #1 Pipeline -->
+    <div id="pipeline" class="beach">
+      <div class="beach-image"
+           style="background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=900&q=80');">
+      </div>
+      <div class="beach-content">
+        <p class="beach-number">NO. 01</p>
+        <h3 class="beach-name">Pipeline</h3>
+        <p class="beach-location">Oahu's North Shore · Hawaii</p>
+        <p class="beach-desc">
+          The most famous wave on earth. Pipeline breaks over a razor-sharp reef just
+          yards from the sand, producing the textbook barrel every surfer dreams of
+          riding at least once. In winter, the swells can triple in size and turn the
+          North Shore into the pro tour's most unforgiving stage.
+        </p>
+        <div class="beach-stats">
+          <div class="stat">
+            <div class="stat-label">Avg Wave Size</div>
+            <div class="stat-value">6–15 ft</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Annual Visitors</div>
+            <div class="stat-value">1–2 Million</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #2 Jeffreys Bay -->
+    <div id="jbay" class="beach">
+      <div class="beach-image"
+           style="background-image: url('https://images.unsplash.com/photo-1530870110042-98b2cb110834?auto=format&fit=crop&w=900&q=80');">
+      </div>
+      <div class="beach-content">
+        <p class="beach-number">NO. 02</p>
+        <h3 class="beach-name">Jeffreys Bay</h3>
+        <p class="beach-location">Southeast Coast · South Africa</p>
+        <p class="beach-desc">
+          Known as J-Bay, this is one of the longest and most perfect right-hand point
+          breaks in the world. On a good day, a single wave can run for hundreds of
+          meters — a treadmill of speed, style, and cutbacks that has produced some of
+          the most iconic footage in surfing history.
+        </p>
+        <div class="beach-stats">
+          <div class="stat">
+            <div class="stat-label">Avg Wave Size</div>
+            <div class="stat-value">4–10 ft</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Annual Visitors</div>
+            <div class="stat-value">Hundreds of Thousands</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #3 Uluwatu -->
+    <div id="uluwatu" class="beach">
+      <div class="beach-image"
+           style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=900&q=80');">
+      </div>
+      <div class="beach-content">
+        <p class="beach-number">NO. 03</p>
+        <h3 class="beach-name">Uluwatu</h3>
+        <p class="beach-location">Bukit Peninsula · Bali, Indonesia</p>
+        <p class="beach-desc">
+          Perched beneath a cliffside temple, Uluwatu is the spiritual heart of
+          Indonesian surfing. The wave peels along a reef in long, glassy sections —
+          perfect for intermediate surfers on small days and absolutely firing when
+          the big south swells hit.
+        </p>
+        <div class="beach-stats">
+          <div class="stat">
+            <div class="stat-label">Avg Wave Size</div>
+            <div class="stat-value">3–12 ft</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Annual Visitors</div>
+            <div class="stat-value">Millions (Bali)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #4 Teahupoʻo -->
+    <div id="teahupoo" class="beach">
+      <div class="beach-image"
+           style="background-image: url('https://images.unsplash.com/photo-1455729552865-3658a5d39692?auto=format&fit=crop&w=900&q=80');">
+      </div>
+      <div class="beach-content">
+        <p class="beach-number">NO. 04</p>
+        <h3 class="beach-name">Teahupoʻo</h3>
+        <p class="beach-location">Southwest Coast · Tahiti</p>
+        <p class="beach-desc">
+          Pronounced "cho-poo" — and feared for a reason. Teahupoʻo is less a wave
+          than a moving wall of water, breaking over a shallow coral reef with a
+          ferocity unmatched anywhere on earth. On its biggest days, surfers can face
+          waves that exceed 20 feet — pure liquid concrete.
+        </p>
+        <div class="beach-stats">
+          <div class="stat">
+            <div class="stat-label">Avg Wave Size</div>
+            <div class="stat-value">6–12 ft (20 ft+)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Annual Visitors</div>
+            <div class="stat-value">Thousands of Surfers</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #5 Gold Coast -->
+    <div id="goldcoast" class="beach">
+      <div class="beach-image"
+           style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80');">
+      </div>
+      <div class="beach-content">
+        <p class="beach-number">NO. 05</p>
+        <h3 class="beach-name">Gold Coast</h3>
+        <p class="beach-location">Queensland · Australia</p>
+        <p class="beach-desc">
+          The most developed surf hub on the planet. From Snapper Rocks to Burleigh
+          Heads, the Gold Coast is a string of perfect point breaks backed by a thriving
+          surf culture, pro shops, and some of the biggest surf events on the calendar.
+          It's where beginners and world champions share the lineup daily.
+        </p>
+        <div class="beach-stats">
+          <div class="stat">
+            <div class="stat-label">Avg Wave Size</div>
+            <div class="stat-value">2–8 ft</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Annual Visitors</div>
+            <div class="stat-value">10 Million+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABLEAU VIZ -->
+    <section id="tableau" class="section">
+      <h2 class="section-title">Surf &amp; Beach Data</h2>
+      <p class="section-lead">
+        An interactive Tableau visualization — hover, click, and explore. Public data
+        from the Tableau community.
+      </p>
+      <div class="tableau-wrapper">
+        <div class='tableauPlaceholder' id='viz_surf' style='position: relative; width: 100%;'>
+          <noscript>
+            <a href='#'>
+              <img alt='Tableau Dashboard' src='https://public.tableau.com/static/images/Su/Superstore/Overview/1_rss.png' style='border: none; max-width: 100%;' />
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:block; width:100%; height:700px;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Superstore_embedded_800x800&#47;Overview' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Su/Superstore/Overview/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz_surf');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = '700px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </section>
+
+    <!-- WEBAPP LINK -->
+    <div id="game" class="webapp-cta">
+      <h2>Beach Break: Snake Game</h2>
+      <p>
+        Built a custom snake game styled after the beach. Guide the snake, eat the
+        coconuts, and try not to hit the reef. Built in HTML/CSS/JS — all in a single
+        page, with AI help.
+      </p>
+      <a href="snake.html" class="play-btn">Play the Game →</a>
+    </div>
+
+    <!-- Back to top anchor -->
+    <div style="text-align: center; padding-bottom: 30px;">
+      <a href="#top" style="color: #fceabb; text-decoration: none; font-family: 'Trebuchet MS', sans-serif; font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; background: rgba(10,37,64,0.6); padding: 10px 24px; border-radius: 20px;">
+        ↑ Back to Top
+      </a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>
+      Built from scratch by Spencer Bingham ·
+      <a href="./index.html">Return to Professional Site</a>
+    </p>
+  </footer>
+
+</body>
+</html>
